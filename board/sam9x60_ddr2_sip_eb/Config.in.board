@@ -7,8 +7,10 @@ config	SAM9X60_DDR2_SIP_EB
 	select ALLOW_SDCARD
 	select ALLOW_CPU_CLK_600MHZ
 	select ALLOW_CRYSTAL_24_000MHZ
+	select MCK_BYPASS
 	select SUPPORT_BUS_SPEED_200MHZ
 	select FLEXCOM
+
 	help
 	    Use the SAM9X60 DDR2 SiP Engineering Board.
 	    The important part is the initialization of the DDR2 SiP
